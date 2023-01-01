@@ -1095,8 +1095,18 @@ header .container {
     width: 450px;
   }
 }
+@media screen and (min-width: 768px) {
+  .modal {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%) scale(1) rotate(0);
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
     min-height: 581px;
     min-width: 528px;
   }

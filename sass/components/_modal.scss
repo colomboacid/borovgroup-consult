@@ -25,7 +25,15 @@
     height: 609px;
     width: 450px;
   }
+  @include tablet {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%) scale(1) rotate(0);
+  }
   @include desktop {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
     min-height: 581px;
     min-width: 528px;
   }
