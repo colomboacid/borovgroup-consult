@@ -244,6 +244,10 @@ body {
   color: #2196f3;
 }
 
+.mobile-current {
+  color: #2196f3;
+}
+
 .navigation {
   display: none;
 }
@@ -1079,9 +1083,9 @@ header .container {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 95px;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1) rotate(0);
+  transform: translate(-50%) scale(1) rotate(0);
   width: calc(100% - 30px);
   padding: 40px;
   background-color: #ffffff;
@@ -1097,9 +1101,9 @@ header .container {
 }
 @media screen and (min-width: 768px) {
   .modal {
-    top: 60%;
+    top: 208px;
     left: 50%;
-    transform: translate(-50%, -40%) scale(1) rotate(0);
+    transform: translate(-50%) scale(1) rotate(0);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1175,7 +1179,6 @@ header .container {
   margin-bottom: 30px;
 }
 .form__link {
-  margin-left: 2px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
