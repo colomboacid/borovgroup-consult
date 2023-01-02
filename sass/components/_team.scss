@@ -6,13 +6,13 @@
   }
   &__title {
     margin-bottom: 30px;
+    @include font(28, 1.18);
+    text-align: center;
     @include desktop {
       margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.17;
     }
-    font-size: 28px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
   }
   &__list {
     display: flex;

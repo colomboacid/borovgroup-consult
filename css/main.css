@@ -30,7 +30,7 @@ body {
   text-decoration: none;
 }
 
-.clients__title, .busyness__title {
+.busyness__title {
   font-size: 36px;
   line-height: 1.17;
 }
@@ -452,7 +452,6 @@ header .container {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
   }
 }
 
@@ -577,12 +576,14 @@ header .container {
   margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .team__title {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
   }
 }
 .team__list {
@@ -691,11 +692,16 @@ header .container {
 }
 .clients__title {
   margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .clients__title {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
   }
 }
 .clients__items {
@@ -1102,8 +1108,6 @@ header .container {
 @media screen and (min-width: 768px) {
   .modal {
     top: 208px;
-    left: 50%;
-    transform: translate(-50%) scale(1) rotate(0);
   }
 }
 @media screen and (min-width: 1200px) {
